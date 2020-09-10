@@ -1,0 +1,5 @@
+dataset/
+preparedData/
+Scripts/
+__pycache__/
+.vscode/
