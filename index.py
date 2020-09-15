@@ -12,9 +12,9 @@ import pathlib
 # TODO: need better dataset
 
 # download dataset
-dataset_url = "https://storage.googleapis.com/download.tensorflow.org/example_images/flower_photos.tgz"
-data_dir = tf.keras.utils.get_file('flower_photos', origin=dataset_url, untar=True)
-data_dir = pathlib.Path(data_dir)
+# dataset_url = "https://storage.googleapis.com/download.tensorflow.org/example_images/flower_photos.tgz"
+# data_dir = tf.keras.utils.get_file('flower_photos', origin=dataset_url, untar=True)
+# data_dir = pathlib.Path(data_dir)
 data_dir = pathlib.Path(__file__).parent / "dataset"
 print(data_dir)
 
