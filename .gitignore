@@ -1,5 +1,6 @@
 dataset/
 preparedData/
+data/
 Scripts/
 __pycache__/
 .vscode/
